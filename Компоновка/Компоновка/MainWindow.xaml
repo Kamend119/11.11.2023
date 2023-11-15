@@ -1,0 +1,17 @@
+﻿<Window x:Class="Компоновка.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Компоновка"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500">
+    <Grid x:Name="Основной_контенер">
+        <StackPanel Orientation="Vertical" x:Name="stackPanel">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" x:Name="stackPanelHorizontal1"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" x:Name="stackPanelHorizontal2"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" x:Name="stackPanelHorizontal3"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  HorizontalAlignment ="Center"  x:Name="stackPanelHorizontal4"/>
+        </StackPanel>
+    </Grid>
+</Window>
